@@ -42,7 +42,9 @@
   "expandedSpaces": [
     "/",
     "//docs",
-    "//Tags"
+    "//docs/docs/lib",
+    "//docs/docs/lib/docs/lib/scripts",
+    "//docs/docs/lib/docs/lib/styles"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
