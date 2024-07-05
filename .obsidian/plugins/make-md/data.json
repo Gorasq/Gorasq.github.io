@@ -40,10 +40,11 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
-    "//docs/docs/lib",
     "//docs/docs/lib/docs/lib/scripts",
-    "//docs/docs/lib/docs/lib/styles"
+    "//docs/docs/lib/docs/lib/styles",
+    "//docs",
+    "//모각코",
+    "/"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

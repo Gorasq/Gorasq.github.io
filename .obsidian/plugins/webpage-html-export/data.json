@@ -46,10 +46,8 @@
   "exportPath": "C:\\\\Users\\Seungju\\Desktop\\Coding\\Gorasq.github.io\\docs",
   "filesToExport": [
     [
-      "모각코.md",
-      "index.md",
-      "README.md",
-      "test.md"
+      "모각코",
+      "index.md"
     ]
   ]
 }
