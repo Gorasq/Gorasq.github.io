@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "모각코/[2024 하계 모각코 202401818김승주 개인 계획].md",
+                "file": "모각코/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b8b53b513e17a2f3",
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "모각코/[하계 모각코] 2차 개인 목표 및 결과.md",
+                "file": "모각코/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "모각코/[하계 모각코] 2차 개인 목표 및 결과.md",
+                "file": "모각코/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "모각코/[하계 모각코] 2차 개인 목표 및 결과.md"
+                "file": "모각코/무제 파일.md"
               }
             }
           }
@@ -177,20 +177,20 @@
     "type": "floating",
     "children": [
       {
-        "id": "2e796b6153bea931",
+        "id": "861fd9a5d09a1e39",
         "type": "window",
         "children": [
           {
-            "id": "87b4a9b13a62e5db",
+            "id": "1ab0bd38b5d5fe53",
             "type": "tabs",
             "children": [
               {
-                "id": "88f3dd867f181414",
+                "id": "78944e44969d47f7",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "모각코/[하계 모각코] 2차 개인 목표 및 결과.md",
+                    "file": "모각코/무제 파일.md",
                     "mode": "source",
                     "source": false
                   }
@@ -200,19 +200,20 @@
           }
         ],
         "direction": "vertical",
-        "x": 1536,
-        "y": 555,
-        "width": 720,
-        "height": 400,
+        "x": 317,
+        "y": 412,
+        "width": 902,
+        "height": 500,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "88f3dd867f181414",
+  "active": "78944e44969d47f7",
   "lastOpenFiles": [
-    "모각코/[하계 모각코 1차 개인 목표 및 결과].md",
     "모각코/[하계 모각코] 2차 개인 목표 및 결과.md",
+    "모각코/무제 파일.md",
+    "모각코/[하계 모각코] 3차 개인 목표 및 결과.md",
     "모각코/[2024 하계 모각코 202401818김승주 개인 계획].md",
     "().md",
     "index.md",
