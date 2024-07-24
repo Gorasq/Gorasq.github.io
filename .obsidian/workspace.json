@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a770c6a28398c882",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "모각코/[하계 모각코] 2차 개인 목표 및 결과.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b93c7bb4e89e5eb5",
             "type": "leaf",
             "state": {
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "모각코/[하계 모각코] 2차 개인 목표 및 결과.md",
+                "file": "모각코/[하계 모각코] 3차 개인 목표 및 결과.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "모각코/[하계 모각코] 2차 개인 목표 및 결과.md",
+                "file": "모각코/[하계 모각코] 3차 개인 목표 및 결과.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "모각코/[하계 모각코] 2차 개인 목표 및 결과.md"
+                "file": "모각코/[하계 모각코] 3차 개인 목표 및 결과.md"
               }
             }
           }
@@ -171,12 +159,17 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "a770c6a28398c882",
+  "active": "b93c7bb4e89e5eb5",
   "lastOpenFiles": [
     "모각코/[하계 모각코] 3차 개인 목표 및 결과.md",
+    "ipynb files/무제 파일.md",
+    "ipynb files/soundananlysis.ipynb",
+    "무제 파일.md",
+    "ipynb files/ipynb files.md",
+    "ipynb files",
+    "모각코/[하계 모각코] 2차 개인 목표 및 결과.md",
     "docs/모각코/[하계-모각코]-1차-개인-목표-및-결과.html",
     "모각코/[하계 모각코] 1차 개인 목표 및 결과.md",
-    "모각코/[하계 모각코] 2차 개인 목표 및 결과.md",
     "모각코/[2024 하계 모각코 202401818김승주 개인 계획].md",
     "().md",
     "index.md",
@@ -189,12 +182,9 @@
     "docs/모각코",
     ".md",
     "Vault.md",
-    "모각코",
-    "무제 파일.md",
     "무제 파일 1.md",
     "Tags/Main.md",
     "Tags/무제 파일 1.md",
-    "docs/모각코.html",
     "test.md",
     "README.md",
     "이름 없는 보드.md",
