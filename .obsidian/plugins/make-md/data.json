@@ -47,7 +47,8 @@
     "//ipynb files",
     "//docs/docs/모각코",
     "//Tags",
-    "//모각코"
+    "//모각코",
+    "//docs/docs/ipynb-files"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
