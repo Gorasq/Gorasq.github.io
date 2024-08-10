@@ -1,4 +1,70 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Speekrr.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Speekrr.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 07 Aug 2024 14:52:21 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 07 Aug 2024 14:52:21 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[목표]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Speekrr.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Speekrr.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 10 Aug 2024 08:53:48 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 10 Aug 2024 08:53:47 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[목표]]></title><description><![CDATA[ 
+ <br><br>이미지 전처리 실습 3회차 &amp; 오디오 전처리 라이브러리 탐방<br><br>이미지 전처리<br>import cv2  
+import numpy as np  
+import os  
+import matplotlib.pyplot as plt  
+  
+  
+def blur(image, name: str):  
+    new_image = cv2.blur(image, (10, 10))  
+    path = 'FriedFood_blurred/blurred' + name  
+    cv2.imwrite(path, new_image)  
+  
+  
+def contrast(image, name: str):  
+    image_yuv = cv2.cvtColor(image, cv2.COLOR_BGR2YUV)  
+    image_yuv[:, :, 0] = cv2.equalizeHist(image_yuv[:, :, 0])  
+    image_yuv[:, :, 1] = cv2.equalizeHist(image_yuv[:, :, 1])  
+  
+    new_image = cv2.cvtColor(image_yuv, cv2.COLOR_YUV2RGB)  
+    path = 'FriedFood_contrast/'+'contrast'+name  
+    cv2.imwrite(path, new_image)  
+  
+  
+def resize(image, name: str, width=26, height=26):  
+    new_image = cv2.resize(image, (width, height))  
+    path = 'FriedFood_resized/'+'resized'+f'{width}_{height}'+name  
+    cv2.imwrite(path, new_image)  
+  
+  
+def empty_space(image, name: str, direction='horizontal', thick=15):  
+    hor = np.shape(image)[1]  
+    ver = np.shape(image)[0]  
+    if direction == 'horizontal':  
+        image[:, (hor//2-thick):(hor//2+thick), :] = np.zeros((ver, 2*thick, 3), dtype=int)  
+    else:  
+        image[(ver//2-thick):(ver//2+thick), :, :] = np.zeros((2*thick, hor, 3), dtype=int)  
+    path = f'FriedFood_{direction}/'+'empty_space'+name  
+    cv2.imwrite(path, image)  
+  
+  
+def rectangle(image, name: str, x=50, y=50, line=-1):  
+    hor = np.shape(image)[1]//2  
+    ver = np.shape(image)[0]//2  
+    start = (hor - x, ver - y)  
+    end = (hor + x, ver + y)  
+    new_image = cv2.rectangle(image, start, end, (0, 0, 0), -1)  
+    path = 'FriedFood_rectangle/' + 'rectangle' + name  
+    cv2.imwrite(path, new_image)  
+  
+  
+new_folders = ['blurred', 'horizontal', 'vertical', 'resized', 'contrast', 'rectangle']  
+for i in new_folders:  
+    if not os.path.exists('FriedFood_'+ str(i)):  
+        os.mkdir('FriedFood_'+str(i))  
+    else:  
+        continue  
+  
+for i, filename in enumerate(os.listdir('FriedFood')):  
+    pic = cv2.imread('FriedFood/'+filename, cv2.IMREAD_COLOR)  
+    blur(pic, filename)  
+    resize(pic, filename)   
+	contrast(pic, filename)   
+	empty_space(pic, name=filename,direction='horizontal')
+	empty_space(pic, name=filename, direction='vertical')
+	rectangle(pic, name=filename)  
+  
+복사]]></description><link>모각코\무제-파일.html</link><guid isPermaLink="false">모각코/무제 파일.md</guid><pubDate>Sat, 10 Aug 2024 08:53:39 GMT</pubDate></item><item><title><![CDATA[목표]]></title><description><![CDATA[ 
  <br><br>이미지 전처리 실습 2 번째 시간<br><br><a data-tooltip-position="top" aria-label="https://drive.google.com/file/d/1kYmobFv6ArcROp8lGlbAhrp-E2yxc_dD/view?usp=sharing" rel="noopener" class="external-link" href="https://drive.google.com/file/d/1kYmobFv6ArcROp8lGlbAhrp-E2yxc_dD/view?usp=sharing" target="_blank">실습</a><br>참고자료:<br>
 <a data-tooltip-position="top" aria-label="https://ivo-lee.tistory.com/91" rel="noopener" class="external-link" href="https://ivo-lee.tistory.com/91" target="_blank">ivo_lee</a>]]></description><link>모각코\[하계-모각코]-5차-개인-목표-및-결과.html</link><guid isPermaLink="false">모각코/[하계 모각코] 5차 개인 목표 및 결과.md</guid><pubDate>Wed, 07 Aug 2024 14:52:16 GMT</pubDate></item><item><title><![CDATA[목표]]></title><description><![CDATA[ 
  <br><br>librosa 라이브러리 활용하여 소리 데이터 처리하기<br><br> <a data-tooltip-position="top" aria-label="https://colab.research.google.com/drive/1Yp5JsEs1WckhVuKra0Bn63-jGD7I7K5J?usp=sharing" rel="noopener" class="external-link" href="https://colab.research.google.com/drive/1Yp5JsEs1WckhVuKra0Bn63-jGD7I7K5J?usp=sharing" target="_blank">Colab 실습</a>]]></description><link>모각코\[하계-모각코]-3차-개인-목표-및-결과.html</link><guid isPermaLink="false">모각코/[하계 모각코] 3차 개인 목표 및 결과.md</guid><pubDate>Wed, 31 Jul 2024 11:53:16 GMT</pubDate></item><item><title><![CDATA[목표]]></title><description><![CDATA[ 
