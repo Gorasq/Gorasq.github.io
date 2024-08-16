@@ -47,6 +47,7 @@
   "filesToExport": [
     [
       "모각코",
+      "ipynb files/soundananlysis.ipynb",
       "index.md"
     ]
   ]
