@@ -36,8 +36,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4d8a1af6bf74823f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "모각코/[하계 모각코] 회고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +137,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "모각코/[하계 모각코] 회고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,9 +158,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "모각코/[하계 모각코] 회고.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -177,10 +182,10 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "da52f0d6433a0cbf",
+  "active": "4d8a1af6bf74823f",
   "lastOpenFiles": [
-    "docs/모각코/[하계-모각코]-회고.html",
     "모각코/[하계 모각코] 회고.md",
+    "docs/모각코/[하계-모각코]-회고.html",
     "모각코/[2024 하계 모각코 202401818김승주 개인 계획].md",
     "모각코/[하계 모각코] 6차 개인 목표 및 결과.md",
     "모각코/[하계 모각코] 3차 개인 목표 및 결과.md",
@@ -204,7 +209,6 @@
     "docs/모각코/[하계-모각코]-1차-개인-목표-및-결과.html",
     "().md",
     "index.md",
-    "docs/index.html",
     "모각코/모각코.md",
     "Vault.md",
     "무제 파일 1.md",
