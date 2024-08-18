@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "333d035aacc2584b",
+        "id": "cfebe5c49fd3798b",
         "type": "tabs",
         "children": [
           {
-            "id": "b93c7bb4e89e5eb5",
+            "id": "dd359d66f15da058",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "모각코/[2024 하계 모각코 202401818김승주 개인 계획].md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "22c891cf67caac6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da52f0d6433a0cbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "모각코/[하계 모각코] 회고.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "모각코/[2024 하계 모각코 202401818김승주 개인 계획].md",
+                "file": "모각코/[하계 모각코] 회고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "모각코/[2024 하계 모각코 202401818김승주 개인 계획].md",
+                "file": "모각코/[하계 모각코] 회고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "모각코/[2024 하계 모각코 202401818김승주 개인 계획].md"
+                "file": "모각코/[하계 모각코] 회고.md"
               }
             }
           }
@@ -159,10 +177,12 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b93c7bb4e89e5eb5",
+  "active": "da52f0d6433a0cbf",
   "lastOpenFiles": [
-    "모각코/[하계 모각코] 6차 개인 목표 및 결과.md",
+    "docs/모각코/[하계-모각코]-회고.html",
+    "모각코/[하계 모각코] 회고.md",
     "모각코/[2024 하계 모각코 202401818김승주 개인 계획].md",
+    "모각코/[하계 모각코] 6차 개인 목표 및 결과.md",
     "모각코/[하계 모각코] 3차 개인 목표 및 결과.md",
     "docs/모각코/[하계-모각코]-6차-개인-목표-및-결과.html",
     "모각코/[하계 모각코] 5차 개인 목표 및 결과.md",
